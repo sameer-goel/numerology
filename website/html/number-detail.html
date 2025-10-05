@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Details - NumerologyGateway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/educational.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="brand" href="index.html">NumerologyGateway</a>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="index.html#calculator">Calculator</a>
+                <a class="nav__link" href="learn.html">Learn</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="number-selector">
+                    <h2>Select a Number to Explore</h2>
+                    <div class="number-grid">
+                        <button class="number-btn" onclick="showNumber(1)">1</button>
+                        <button class="number-btn" onclick="showNumber(2)">2</button>
+                        <button class="number-btn" onclick="showNumber(3)">3</button>
+                        <button class="number-btn" onclick="showNumber(4)">4</button>
+                        <button class="number-btn" onclick="showNumber(5)">5</button>
+                        <button class="number-btn" onclick="showNumber(6)">6</button>
+                        <button class="number-btn" onclick="showNumber(7)">7</button>
+                        <button class="number-btn" onclick="showNumber(8)">8</button>
+                        <button class="number-btn" onclick="showNumber(9)">9</button>
+                    </div>
+                </div>
+                <div id="number-detail"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <small>© 2025 NumerologyGateway. Based on Vedic traditions.</small>
+        </div>
+    </footer>
+    <script src="../js/number-detail.js"></script>
+</body>
+</html>
