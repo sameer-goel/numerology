@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - NumerologyGateway</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container site-header__inner">
+            <a class="brand" href="index.html">NumerologyGateway</a>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Learn</a>
+                <a class="nav__link" href="calculator.html">Calculator</a>
+                <a class="nav__link" href="number-detail.html">Numbers</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="hero__title" style="text-align: center; margin-bottom: 2rem;">Calculate Your Core Numbers</h1>
+                <div class="calculator" role="region" aria-labelledby="calculator-heading">
+                    <div class="card">
+                        <h2 id="calculator-heading" class="card__title">Enter Your Details</h2>
+                        <p class="helper-text">Enter your full name and birth date to reveal your psychic, destiny, and name numbers.</p>
+                        <form id="numerology-form" class="calculator__form" novalidate>
+                            <label class="label" for="full-name">Full Name</label>
+                            <input class="input" id="full-name" name="full-name" type="text" placeholder="e.g., Asha Ramesh" autocomplete="name" required>
+
+                            <label class="label" for="birth-date">Date of Birth</label>
+                            <input class="input" id="birth-date" name="birth-date" type="date" required>
+
+                            <button class="btn btn--primary" type="submit" id="calculate-btn">Analyze Numbers</button>
+                            <p class="helper-text">We follow the Vedic tradition. Ensure your name uses its authentic spelling for accurate readings.</p>
+                        </form>
+                    </div>
+                    <div class="card calculator__result">
+                        <h3 class="card__title">Your Insights</h3>
+                        <p class="card__body" data-result-message>Results will appear here after you calculate your profile.</p>
+                        <div class="result" id="calculation-result" aria-live="polite">Awaiting input…</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <small>© 2025 NumerologyGateway. Guided by Vedic traditions.</small>
+        </div>
+    </footer>
+    <script src="numerology_calculator.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
