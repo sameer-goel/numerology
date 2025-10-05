@@ -1,0 +1,76 @@
+/* Theme System - Modular & Extensible */
+
+/* Default Theme: Vedic Earth */
+:root {
+    --color-primary: #8B4513;
+    --color-secondary: #DAA520;
+    --color-accent: #4B0082;
+    --color-background: #FFF8DC;
+    --color-surface: #FFFFFF;
+    --color-text: #2F4F4F;
+    --color-muted: rgba(47, 79, 79, 0.7);
+}
+
+/* Theme 1: Mystic Purple */
+[data-theme="mystic-purple"] {
+    --color-primary: #6A0DAD;
+    --color-secondary: #FFD700;
+    --color-accent: #008B8B;
+    --color-background: #E6E6FA;
+    --color-surface: #FFFFFF;
+    --color-text: #2F4F4F;
+    --color-muted: rgba(47, 79, 79, 0.7);
+}
+
+/* Theme 2: Celestial Blue */
+[data-theme="celestial-blue"] {
+    --color-primary: #4169E1;
+    --color-secondary: #FFBF00;
+    --color-accent: #FF6347;
+    --color-background: #F0F8FF;
+    --color-surface: #FFFFFF;
+    --color-text: #000080;
+    --color-muted: rgba(0, 0, 128, 0.7);
+}
+
+/* Theme 3: Sacred Saffron */
+[data-theme="sacred-saffron"] {
+    --color-primary: #FF9933;
+    --color-secondary: #228B22;
+    --color-accent: #800000;
+    --color-background: #FFFDD0;
+    --color-surface: #FFFFFF;
+    --color-text: #654321;
+    --color-muted: rgba(101, 67, 33, 0.7);
+}
+
+/* Theme 4: Moonlight Serenity */
+[data-theme="moonlight-serenity"] {
+    --color-primary: #6A5ACD;
+    --color-secondary: #B76E79;
+    --color-accent: #98FF98;
+    --color-background: #F5F5F5;
+    --color-surface: #FFFFFF;
+    --color-text: #36454F;
+    --color-muted: rgba(54, 69, 79, 0.7);
+}
+
+/* Theme 5: Solar Fire */
+[data-theme="solar-fire"] {
+    --color-primary: #DC143C;
+    --color-secondary: #FFD700;
+    --color-accent: #4B0082;
+    --color-background: #F5F5DC;
+    --color-surface: #FFFFFF;
+    --color-text: #8B0000;
+    --color-muted: rgba(139, 0, 0, 0.7);
+}
+
+/* Smooth theme transitions */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card, .btn, .input, .sidebar-nav, .site-header {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}

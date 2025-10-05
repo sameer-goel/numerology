@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/educational.css">
+    <link rel="stylesheet" href="css/themes.css">
     <style>
         .number-grid {
             display: grid;
@@ -39,6 +40,14 @@
                 <a class="nav__link" href="index.html">Learn</a>
                 <a class="nav__link" href="calculator.html">Calculator</a>
                 <a class="nav__link" href="number-detail.html">Numbers</a>
+                <select id="theme-select" class="theme-selector" aria-label="Choose theme">
+                    <option value="vedic-earth">Vedic Earth</option>
+                    <option value="mystic-purple">Mystic Purple</option>
+                    <option value="celestial-blue">Celestial Blue</option>
+                    <option value="sacred-saffron">Sacred Saffron</option>
+                    <option value="moonlight-serenity">Moonlight Serenity</option>
+                    <option value="solar-fire">Solar Fire</option>
+                </select>
             </nav>
         </div>
     </header>
@@ -77,6 +86,7 @@
             <small>© 2025 NumerologyGateway. Based on Vedic traditions.</small>
         </div>
     </footer>
+    <script src="js/theme-switcher.js"></script>
     <script src="js/number-detail.js"></script>
 </body>
 </html>
