@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+venv/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
